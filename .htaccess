@@ -1,0 +1,48 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	
+	#redirect non WWW to WWW version of the site
+	RewriteCond %{HTTP_HOST} ^theoryofwebolution.com [NC]
+	RewriteRule ^(.*)$ http://www.theoryofwebolution.com/$1 [L,R=301]
+	
+	
+</IfModule>
+
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 week"
+ExpiresByType image/jpeg "access 1 week"
+ExpiresByType image/gif "access 1 week"
+ExpiresByType image/png "access 1 week"
+ExpiresByType text/css "access 1 week"
+ExpiresByType text/html "access 1 week"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 week"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+
+
+# check that the request url is neither a file nor a directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+#page not found redirect
+ErrorDocument 404 /404.php
+
+#Rewrite for contact.php?successMsg=true
+RewriteRule ^contact-us/success/(.*)$ contact-us.php?success_msg=$1 [NC,B]
+
+#Rewrite for contact.php?errorMsg=true
+RewriteRule ^contact-us/error/(.*)$ contact-us.php?error_msg=$1 [NC,B]
+
+#Rewrite for contact-us.php
+RewriteRule ^contact-us$ contact-us.php [NC,L]
+
+#Rewrite for portfolio.php
+RewriteRule ^portfolio$ portfolio.php [NC,L]

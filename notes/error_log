@@ -1,0 +1,40 @@
+[19-Apr-2016 17:55:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home3/jared10222/public_html/notes/lib/livid/database/PdoDatabase.php:28
+Stack trace:
+#0 /home3/jared10222/public_html/notes/lib/livid/database/PdoDatabase.php(28): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home3/jared10222/public_html/notes/config/bootstrap.php(9): livid\database\PdoDatabase->__construct()
+#2 /home3/jared10222/public_html/notes/index.php(2): require_once('/home3/jared102...')
+#3 {main}
+  thrown in /home3/jared10222/public_html/notes/lib/livid/database/PdoDatabase.php on line 28
+[19-Apr-2016 17:55:33 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home3/jared10222/public_html/notes/lib/livid/database/PdoDatabase.php:28
+Stack trace:
+#0 /home3/jared10222/public_html/notes/lib/livid/database/PdoDatabase.php(28): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home3/jared10222/public_html/notes/config/bootstrap.php(9): livid\database\PdoDatabase->__construct()
+#2 /home3/jared10222/public_html/notes/index.php(2): require_once('/home3/jared102...')
+#3 {main}
+  thrown in /home3/jared10222/public_html/notes/lib/livid/database/PdoDatabase.php on line 28
+[19-Apr-2016 18:01:19 America/Chicago] PHP Warning:  require_once(/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:01:19 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:01:21 America/Chicago] PHP Warning:  require_once(/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:01:21 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:06:18 America/Chicago] PHP Warning:  require_once(notes/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:06:18 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'notes/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:06:19 America/Chicago] PHP Warning:  require_once(notes/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:06:19 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'notes/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:07:14 America/Chicago] PHP Warning:  require_once(/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:07:14 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:08:11 America/Chicago] PHP Warning:  require_once(notes.theoryofwebolution.com/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:08:11 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'notes.theoryofwebolution.com/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:08:13 America/Chicago] PHP Warning:  require_once(notes.theoryofwebolution.com/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:08:13 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'notes.theoryofwebolution.com/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:08:41 America/Chicago] PHP Warning:  require_once(/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:08:41 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:08:42 America/Chicago] PHP Warning:  require_once(/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:08:42 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/tutorialsView.php on line 2
+[19-Apr-2016 18:08:56 America/Chicago] PHP Warning:  require_once(/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:08:56 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:08:57 America/Chicago] PHP Warning:  require_once(/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:08:57 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:08:59 America/Chicago] PHP Warning:  require_once(/resources/assets/includes/header.php): failed to open stream: No such file or directory in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:08:59 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/resources/assets/includes/header.php' (include_path='.:/opt/php56/lib/php') in /home3/jared10222/public_html/notes/resources/views/home/homeView.php on line 2
+[19-Apr-2016 18:42:04 America/Chicago] PHP Fatal error:  Call to undefined function fileInclude() in /home3/jared10222/public_html/notes/resources/assets/includes/header.php on line 15
+[19-Apr-2016 18:42:08 America/Chicago] PHP Fatal error:  Call to undefined function fileInclude() in /home3/jared10222/public_html/notes/resources/assets/includes/header.php on line 15

@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1141px){
+/*-----CONTENT-----*/
+#content {
+	margin:10px auto;
+	box-shadow:0px 0px 4px rgba(0,0,0,1);
+	border-radius:5px;	
+}
+header {
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;	
+}
+
+footer {
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;	
+}
+
+}

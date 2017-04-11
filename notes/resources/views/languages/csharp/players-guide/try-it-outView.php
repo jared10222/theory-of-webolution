@@ -1,0 +1,41 @@
+<?php
+require_once(assets("includes/header.php"));
+?>
+<!-- Begin page content -->
+<div class="container">
+
+      <div class="page-header">
+        <h1>Try It Out!</h1>
+      </div>
+      
+<table class="table table-responsive table-bordered">
+	<caption>Table of Contents</caption>
+    <tr>
+    	<td><a href="#1">Message from Julius Caesar</a></td>
+        <td><a href="#2">Reverse It!</a></td>
+        <td><a href="#3">Pig Dice</a></td>
+        <td><a href="#4">Connect Four</a></td>
+        <td><a href="#5">Conway's Game of Life</a></td>
+    </tr>
+</table>
+
+<hr />
+<h2 id="1">Message from Julius Caesar</h2>
+
+<hr />
+<h2 id="2">Reverse It!</h2>
+
+<hr />
+<h2 id="3">Pig Dice</h2>
+
+<hr />
+<h2 id="4">Connect Four</h2>
+
+<hr />
+<h2 id="5">Conway's Game of Life</h2>
+
+
+
+
+</div><!--end container-->
+<?php require_once(assets("includes/footer.php")); ?>
